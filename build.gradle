@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+group = 'com.rikkeipay'
+version = '1.0-SNAPSHOT'
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.2.4'
+    implementation 'io.opentelemetry:opentelemetry-api:1.36.0'
+    implementation 'org.slf4j:slf4j-api:2.0.12'
+}
